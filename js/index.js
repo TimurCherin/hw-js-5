@@ -46,6 +46,6 @@ const courseTopicLength = courseTopic.length;
 const firstElement = courseTopic.slice(0, 1);
 const lastElement = courseTopic.slice(20, 21);
                                                         // ex 11
-const text = "string";
-const substring = text.slice(0, text.length);
+const string = "test";
+const substring = string.slice(0, string.length);
 console.log(substring);
