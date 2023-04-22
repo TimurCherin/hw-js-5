@@ -22,7 +22,7 @@ const me = "Timur Cherin";
 console.log(me.indexOf(" "));
                                                         // ex 6
 const balance = "Ваш баланс поповнено на 1";
-const newBalance = `${balance}000`;
+const newBalance = balance.padEnd(32, "0");
 console.log(newBalance);
 console.log(newBalance.length);
                                                         // ex 7
@@ -44,7 +44,7 @@ console.log(messageDroid);
 const courseTopic = "JavaScript essentials";
 const courseTopicLength = courseTopic.length;
 const firstElement = courseTopic.slice(0, 1);
-const lastElement = courseTopic.slice(20, 21);
+const lastElement = courseTopic.slice(courseTopic.length - 1);
                                                         // ex 11
 const string = "test";
 const substring = string.slice(0, string.length);
